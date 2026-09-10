@@ -55,7 +55,3 @@ Saat program dijalankan, pengguna akan diberikan menu utama yang terdiri dari be
 Pengguna memilih menu dengan memasukkan nomor pilihan melalui `Scanner`. Setiap menu memiliki submenu untuk melakukan proses CRUD. Program menggunakan perulangan sehingga menu akan terus ditampilkan dan dapat digunakan kembali sampai pengguna memilih pilihan **Keluar**.
 
 Data yang dimasukkan pengguna akan disimpan ke dalam `ArrayList` sesuai dengan jenis datanya. Data tim disimpan pada `ArrayList<Tim>`, data pertandingan pada `ArrayList<Pertandingan>`, data hasil pertandingan pada `ArrayList<HasilPertandingan>`, dan data klasemen pada `ArrayList<Klasemen>`.
-
-Alur utama program adalah:
-
-**Mulai → Menu Utama → Pilih Menu → Kelola Data → Tampilkan/Perbarui/Hapus Data → Kembali ke Menu Utama → Keluar → Selesai**
